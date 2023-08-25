@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>ca.ricatur.es</title>
 </head>
+<!--script>
+	// Reference Code
+    window.onload = function() {
+		var myArray = [
+			"default",
+			"theme1"
+		];
+
+		var randomTheme = myArray[Math.floor(Math.random()*myArray.length)];
+		const htmlTag = document.getElementsByTagName('html')[0]
+		if (randomTheme == "default") {
+			if (htmlTag.hasAttribute('data-theme')) {
+				htmlTag.removeAttribute('data-theme');
+			};
+		} else {
+			htmlTag.setAttribute('data-theme', randomTheme);
+		}
+    };
+</script-->
 <body>
-    <p>CA.RICATUR.ES Home Page<p>
+    <div class="fill">
+        <div class="left left-half">
+            <div class="fill adj-center-right">
+                <div class="f-small black">.</div>
+                <div class="f-big black">ca</div>
+            </div>
+        </div> 
+        <div class="left right-half f-shadow">
+            <div class="fill adj-center-left">
+                <div class="f-big black z-top">ricatur</div>
+                <div class="f-small black">.</div>
+                <div class="f-big black z-top">es</div>
+            </div>
+			<div class="float">
+				<div class="bg-pic pic1 pos1">&nbsp;</div>
+				<div class="bg-back pos2">&nbsp;</div>
+				<div class="bg-pic pos2 pic2">&nbsp;</div>
+				<div class="bg-back pos3">&nbsp;</div>
+				<div class="bg-pic pos3 pic3">&nbsp;</div>
+				<div class="stamp">&nbsp;</div>
+				<div class="postmark">&nbsp;</div>
+				<div class="footer">
+					<div class="copy">© 2023 CA.RICATUR.ES / 010ALPHA</div>
+					<div class="addendum"><br/>
+					Todos Los Derechos Reservados.<br/>
+					Contacto: <a href= "mailto:ca.ricatur.es@outlook.com">ca.ricatur.es@outlook.com</a>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+	<div class="logo"><a href="https://vinayram.com"><img width="100%" height="100%" src="images/logo.webp"/></a></div>
 </body>
 </html>

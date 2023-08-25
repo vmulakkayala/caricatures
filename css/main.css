@@ -1,0 +1,238 @@
+:root {
+    --bg-left: #ffdbcc;
+	--bg-left-trim: #ffddd1;
+    --bg-right: #f8f6f0;
+    --shadow-right: #a6a6a6;
+    --f-white-r: #e6e6e6;
+    --f-white-l: #e6e6e6;
+    --f-black: #1f1f1f;
+}
+
+/* Reference Code 
+html[data-theme='theme1'] {
+    --bg-left: #ffdbcc;
+	--bg-left-trim: #ffddd1;
+    --bg-right: #f8f6f0;
+    --shadow-right: #a6a6a6;
+    --f-white-r: #e6e6e6;
+    --f-white-l: #e6e6e6;
+    --f-black: #1f1f1f;
+}
+*/
+
+/*
+.white-r {
+    color: var(--f-white-r);
+}
+
+.white-l {
+    color: var(--f-white-l);
+}
+*/
+
+.black {
+    color: var(--f-black);
+}
+
+body {
+    font-family: "Courier New", Courier;
+    height: 100vh;
+    margin: 0px;
+	/* for firefox 
+	overflow: -moz-scrollbars-horizontal;
+	overflow-y: hidden;
+	overflow-x: auto;*/
+}
+
+.fill {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.f-small {
+    font-size: 6vw;
+    margin-bottom:4vw;
+}
+
+.f-big {
+    font-size: 12vw;
+    margin-bottom:6.7vw;
+}
+
+.f-shadow {
+    text-shadow: 0.4vw 0.4vw 0.8vw var(--shadow-right);
+}
+
+.z-top {
+	z-index: 1;
+}
+
+.left-half {
+    background-color: var(--bg-left);
+    width: 24%;
+    height: 100%;
+	box-shadow: -1vw 0 1vw 0 var(--bg-left-trim) inset;
+}
+
+.right-half {
+    background-color: var(--bg-right);
+    width: 76%;
+    height: 100%;
+    box-shadow: 1vw 0vw 1.5vw -0.5vw var(--shadow-right) inset;
+}
+
+.adj-center-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.adj-center-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.float {
+	/* 
+	   Using absolute position relative to parent. For this
+	   to work the parent container's position has to be set 
+	   to relative. Children .background, .stamp and .postmark
+	   all have absolute position (absolute wrt to float position)
+	   https://www.w3docs.com/snippets/css/how-to-set-absolute-positioning-relative-to-the-parent-element.html
+	*/
+	position: relative; 
+	top: -50vh;
+	left: 5vw;
+	height: 0px;
+	width: 0px;
+}
+
+.bg-pic {
+	mix-blend-mode: darken;
+	border: solid;
+}
+
+.bg-back {
+	background-color: var(--bg-right);
+	border: solid;
+	border-color: var(--bg-right);
+}
+
+.pos1 {
+	position: absolute;
+	top: -18vw;
+	left: 28.2vw;
+	transform: rotate(15deg);
+	height: 16vw;
+	width: 16vw;
+}
+
+.pic1 {
+	background: url('../images/background1.webp') no-repeat center;
+	background-size: 16vw;
+	opacity: 0.45;
+	filter: blur(0.02vw);
+	border-color: #bfbfbf;
+}
+
+.pos2 {
+	position: absolute;
+	top: -20vw;
+	left: 4vw;
+	transform: rotate(-12deg);
+	height: 32vw;
+	width: 32vw;
+}
+
+.pic2 {
+	background: url('../images/background2.webp') no-repeat center;
+	background-size: 32vw;
+	opacity: 0.3;
+	filter: blur(0.02vw);
+	border-color: #b3b3b3;
+}
+
+.pos3 {
+	position: absolute;
+	top: -3vw;
+	left: 0vw;
+	transform: rotate(4deg);
+	height: 16vw;
+	width: 16vw;
+}
+
+.pic3 {
+	background: url('../images/background3.webp') no-repeat center;
+	background-size: 16vw;
+	opacity: 0.3;
+	filter: blur(0.02vw);
+	border-color: #b3b3b3;
+}
+
+.stamp {
+	background: url('../images/stamp.webp') no-repeat center;
+	position: relative;
+	top: -12vw;
+	left: 58vw;
+	width: 8.5vw;
+	height: 10vw;
+	background-size: 7vw;
+	transform: rotate(-22deg);
+	opacity: 0.8;
+}
+
+.postmark {
+	background: url('../images/postmark.webp') no-repeat center;
+	position: absolute;
+	top: -10.4vw;
+	left: 55.5vw;
+	width: 7vw;
+	height: 7vw;
+	background-size: 7vw;
+	transform: rotate(7deg);
+	opacity: 0.8;
+}
+
+.logo {
+	position: absolute;
+	top: 0.5vw;
+	left: 85.5vw;
+	width: 12.95vw;
+	height: 3.5vw;
+	opacity: 0.015;
+}
+
+.footer {
+	position: relative;
+	top: 4vw;
+	left: -0.5vw;
+	width: 43vw;
+	height: 7vw;
+}
+
+.copy {
+	font-size: 2.2vw;
+}
+
+.addendum {
+	font-size: 1.1vw;
+	text-shadow: none;
+}
+
+.addendum a {
+	text-decoration: none;
+	color: var(--f-black);
+}
