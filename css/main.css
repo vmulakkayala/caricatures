@@ -133,51 +133,51 @@ body {
 
 .pos1 {
 	position: absolute;
-	top: -18vw;
-	left: 28.2vw;
+	top: -13.5vw;
+	left: 27.2vw;
 	transform: rotate(15deg);
-	height: 16vw;
-	width: 16vw;
+	height: 14vw;
+	width: 14vw;
 }
 
 .pic1 {
 	background: url('../images/background1.webp') no-repeat center;
-	background-size: 16vw;
-	opacity: 0.45;
+	background-size: 14vw;
+	opacity: 0.2;
 	filter: blur(0.02vw);
-	border-color: #bfbfbf;
+	border-color: #b3b3b3;
 }
 
 .pos2 {
 	position: absolute;
-	top: -20vw;
-	left: 4vw;
+	top: -18vw;
+	left: 5.5vw;
 	transform: rotate(-12deg);
-	height: 32vw;
-	width: 32vw;
+	height: 28vw;
+	width: 28vw;
 }
 
 .pic2 {
 	background: url('../images/background2.webp') no-repeat center;
-	background-size: 32vw;
-	opacity: 0.3;
+	background-size: 28vw;
+	opacity: 0.2;
 	filter: blur(0.02vw);
 	border-color: #b3b3b3;
 }
 
 .pos3 {
 	position: absolute;
-	top: -3vw;
-	left: 0vw;
-	transform: rotate(4deg);
-	height: 16vw;
-	width: 16vw;
+	top: -12vw;
+	left: 2vw;
+	transform: rotate(-4deg);
+	height: 14vw;
+	width: 14vw;
 }
 
 .pic3 {
 	background: url('../images/background3.webp') no-repeat center;
-	background-size: 16vw;
-	opacity: 0.3;
+	background-size: 14vw;
+	opacity: 0.2;
 	filter: blur(0.02vw);
 	border-color: #b3b3b3;
 }
@@ -217,7 +217,7 @@ body {
 
 .footer {
 	position: relative;
-	top: 4vw;
+	top: 0vw;
 	left: -0.5vw;
 	width: 43vw;
 	height: 7vw;
