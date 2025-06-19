@@ -15,6 +15,10 @@ body {
 	height: 100vh;
 }
 
+.stretch-half {
+	width: 50%;
+}
+
 .parent-center {
 	display: flex;
 	justify-content: center; 
@@ -57,6 +61,7 @@ body {
 .copy {
 	font-size: 1.5vw;
 	color: dimgray;
+	margin-left: 5vw;
 	/*text-shadow: 0.4vw 0.4vw 0.8vw #a6a6a6;*/
 }
 
@@ -64,6 +69,7 @@ body {
 	font-size: 1.1vw;
 	color: dimgray;
 	text-shadow: none;
+	margin-right: 5vw;
 }
 
 .addendum a {
@@ -90,10 +96,6 @@ body {
 
 .pad-l1 {
 	padding-left: 1vw;
-}
-
-.pad-l2 {
-	padding-left: 5vw;
 }
 
 .pad-r1 {
