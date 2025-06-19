@@ -2,7 +2,8 @@ body {
     font-family: "Courier New", Courier;
     height: 100vh;
     margin: 0px;
-	background-color: #dbd9d1; 
+	/*background-color: #ceccc4;*/
+	background-color: #dbd9d1;
 	color: black;
 	/* for firefox 
 	overflow: -moz-scrollbars-horizontal;
