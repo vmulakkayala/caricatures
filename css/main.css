@@ -60,21 +60,21 @@ body {
 
 .copy {
 	font-size: 1.5vw;
-	color: dimgray;
+	color: #627c26;
 	margin-left: 5vw;
 	/*text-shadow: 0.4vw 0.4vw 0.8vw #a6a6a6;*/
 }
 
 .addendum {
 	font-size: 1.1vw;
-	color: dimgray;
+	color: #627c26;
 	text-shadow: none;
 	margin-right: 5vw;
 }
 
 .addendum a {
 	text-decoration: none;
-	color: dimgray;
+	color: #627c26;
 }
 
 .f-small {
