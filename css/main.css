@@ -43,19 +43,21 @@ body {
 	background-size: 14vw;
 	height: 14vw;
 	width: 14vw;
+	margin-right: -1vw;
 }
 
 .mc {
 	background: url('../images/mc.webp') no-repeat center;
-	background-size: 40vw;
+	background-size: 37vw;
 	height: 5vw;
-	margin-top: 1vw;
+	margin-top: 1.2vw;
+	margin-left: -0.5vw;
 }
 
 .tm {
-	font-size: 1.2vw;
-	margin-top: 1vw;
-	margin-left: 0.4vw;
+	font-size: 1.6vw;
+	margin-top: 1.5vw;
+	margin-left: 0.3vw;
 }
 
 .copy {
@@ -79,11 +81,13 @@ body {
 
 .f-small {
     font-size: 3vw;
-	padding-top: 2.5vw;
+	font-weight: bold;
 }
 
 .f-large {
-    font-size: 6vw;
+    font-size: 4vw;
+	font-weight: bold;
+	letter-spacing: 0.8vw;
 }
 
 .f-white {
@@ -94,12 +98,29 @@ body {
 	background-color: #a82a00;
 }
 
-.pad-l1 {
+.adj-1 {
+	padding-left: 1.3vw;
+}
+
+.adj-3 {
 	padding-left: 1vw;
 }
 
-.pad-r1 {
-	padding-right: 1vw;
+.adj-4 {
+	letter-spacing: 0.8vw;
+}
+
+.adj-5 {
+	padding-right: 0.8vw;
+}
+
+.adj-2, .adj-4 {
+	padding-top: 1.6vw;
+}
+
+.adj-1, .adj-5, .adj-3 {
+	padding-top: 0.8vw;
+	padding-bottom: 0.7vw;
 }
 
 .space-h1 {
