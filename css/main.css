@@ -1,3 +1,7 @@
+:root {
+    --b-rad: 0.45vw; 
+}
+
 body {
     font-family: "Courier New", Courier;
     height: 100vh;
@@ -100,6 +104,13 @@ body {
 
 .adj-1 {
 	padding-left: 1.3vw;
+	border-top-left-radius: var(--b-rad);
+	border-bottom-left-radius: var(--b-rad);
+}
+
+.adj-2 {
+	border-top-right-radius: var(--b-rad);
+	border-bottom-right-radius: var(--b-rad);
 }
 
 .adj-3 {
@@ -108,10 +119,14 @@ body {
 
 .adj-4 {
 	letter-spacing: 0.8vw;
+	border-top-left-radius: var(--b-rad);
+	border-bottom-left-radius: var(--b-rad);
 }
 
 .adj-5 {
 	padding-right: 0.8vw;
+	border-top-right-radius: var(--b-rad);
+	border-bottom-right-radius: var(--b-rad);
 }
 
 .adj-2, .adj-4 {
