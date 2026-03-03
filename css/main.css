@@ -6,7 +6,7 @@ body {
     font-family: "Courier New", Courier;
     height: 100vh;
     margin: 0px;
-	background: url('../images/background.webp') repeat center;
+	background: url('../images/peace.webp') repeat center;
 	background-size: 17.5%;
 	background-color: #F2F2E8;/*#dbd9d1;*/ /*#4b5461;*/  /* #ceccc4;*/
 	color: black;
@@ -38,8 +38,9 @@ body {
 	border-radius: 1vw;
 	padding: 6vw;
 	box-shadow: 0 0 4vw -0.75vw #18181B; /*#A6A09B;*/
-	background-color: rgba(242, 242, 232, 1);/*#F2F2E8;*/ /*#dbd9d1;*/
-	/*backdrop-filter: blur(3vw);*/
+	background-color: rgba(242, 242, 232, 0.6);/*#F2F2E8;*/ /*#dbd9d1;*/
+	/*opacity: 1.0;*/
+	backdrop-filter: blur(0.3vw);
 }
 
 .parent-vert {
