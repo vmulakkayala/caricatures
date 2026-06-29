@@ -38,7 +38,8 @@ body {
 	border-radius: 1vw;
 	padding: 6vw;
 	box-shadow: 0 0 4vw -0.75vw #18181B; /*#A6A09B;*/
-	background-color: rgba(242, 242, 232, 0.6);/*#F2F2E8;*/ /*#dbd9d1;*/
+	/*background-color: rgba(242, 242, 232, 0.6);*//*#F2F2E8;*/ /*#dbd9d1;*/
+	background-color: rgba(250, 250, 250, 0.6);
 	/*opacity: 1.0;*/
 	backdrop-filter: blur(0.3vw);
 }
